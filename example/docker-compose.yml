@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+    alpine-nginx-proxy-siab-example:
+        build: .
+        image: alpine-nginx-proxy-siab-example:latest
+        hostname: 'hobo'
+        ports:
+            - "8000:80"
+        env_file: example.env
+

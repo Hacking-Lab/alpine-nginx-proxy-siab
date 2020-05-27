@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv sh
+node /app/app.js
