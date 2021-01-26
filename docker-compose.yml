@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  alpine-nginx-siab:
+    build: .
+    image: hackinglab/alpine-nginx-siab:3.2
+    environment:
+    - AUTHOR=e1
+    - HL_USER_USERNAME=hacker
+    - HL_USER_PASSWORD=compass
+    ports:
+      - 80:80
+
+

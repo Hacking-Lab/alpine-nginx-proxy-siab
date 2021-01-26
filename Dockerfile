@@ -1,5 +1,5 @@
-FROM hackinglab/alpine-siab:3.1.1 AS siab
-FROM hackinglab/alpine-nginx-proxy:3.1.1 AS base
+FROM hackinglab/alpine-siab:3.2 AS siab
+FROM hackinglab/alpine-nginx:3.2 AS base
 
 LABEL maintainer="Stephan Hauser <stephan.hauser@compass-security.com>"
 
